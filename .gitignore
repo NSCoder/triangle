@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go Dep
+vendor
+
+# SAM
+packaged.yaml
+
+# Crash log files
+crash.log
+
+# IDE and editors
+/.vscode/
+
+# macOS
+.DS_Store
